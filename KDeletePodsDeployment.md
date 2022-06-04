@@ -9,3 +9,7 @@ kubectl delete pod,service baz foo                                # Delete pods 
 kubectl delete pods,services -l name=myLabel                      # Delete pods and services with label name=myLabel
 kubectl -n my-ns delete pod,svc --all                             # Delete all pods and services in namespace my-ns,
 ```
+
+# Delete Deployment
+
+kubectl delete deployment <deploymentNname>
